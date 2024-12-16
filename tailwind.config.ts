@@ -16,3 +16,13 @@ export default {
   },
   plugins: [],
 } satisfies Config;
+
+
+module.exports = {
+  mode: 'jit', // Add this line
+  content: ['./src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
